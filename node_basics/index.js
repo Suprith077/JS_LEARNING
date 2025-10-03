@@ -12,3 +12,6 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Express server running at http://localhost:${PORT}/`);
 });
+
+
+// created basic server using node and express
