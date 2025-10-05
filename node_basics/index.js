@@ -1,17 +1,10 @@
-// express-server.js
-import express from "express"
-const app = express();
-const PORT = 3000;
+var outerFunction = () => {
+  const outerVar = "Aditya"
+  let innerFunction = () => {
+    console.log(outerVar)
+  }
 
-// Home route
-app.get("/", (req, res) => {
-  res.send("Hello, World! This is a Node.js server with Express 🚀");
-});
+  return innerFunction()
+}
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`Express server running at http://localhost:${PORT}/`);
-});
-
-
-// created basic server using node and express
+outerFunction();
