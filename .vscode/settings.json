@@ -1,0 +1,18 @@
+{
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.hover.enabled": false,
+    "gitHub.copilot.enable": {
+      "*": false
+    },
+    "tabnine.experimentalAutoImports": false,
+  "tabnine.disable_file_recommendations": true
+  
+  }
